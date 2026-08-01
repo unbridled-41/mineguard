@@ -96,7 +96,7 @@ echo -e "${BLUE}[4/6]${NC} 配置 systemd 服务..."
 cat > "/etc/systemd/system/${SERVICE_NAME}.service" << EOF
 [Unit]
 Description=MineGuard - 轻量级服务器监控 & 挖矿检测
-Documentation=https://github.com/your-repo/mineguard
+Documentation=https://github.com/unbridled-41/mineguard
 After=network-online.target
 Wants=network-online.target
 

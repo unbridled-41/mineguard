@@ -298,7 +298,7 @@ MineGuard - 轻量级服务器监控 & 挖矿检测守护进程
   mineguard check                    # 单次检查
   mineguard test-notify              # 测试通知
 
-项目地址: https://github.com/your-repo/mineguard
+项目地址: https://github.com/unbridled-41/mineguard
 EOF
 }
 

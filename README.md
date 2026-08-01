@@ -59,7 +59,7 @@
 ### 1. 获取代码
 
 ```bash
-git clone https://github.com/your-repo/mineguard.git
+git clone https://github.com/unbridled-41/mineguard.git
 cd mineguard
 ```
 
