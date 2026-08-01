@@ -1,0 +1,17 @@
+# MineGuard
+*.log
+*.pid
+*.old
+.DS_Store
+
+# 压缩包
+*.tar.gz
+*.zip
+
+# 运行状态数据
+state/
+
+# IDE
+.vscode/
+.idea/
+

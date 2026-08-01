@@ -1,0 +1,74 @@
+# ============================================================================
+# MineGuard - 挖矿进程特征签名库
+# 每行一个正则表达式模式，# 开头为注释
+# 灵感来源: VertexElite/server-security-toolkit
+# ============================================================================
+
+# --- 常见挖矿程序二进制名称 ---
+xmrig
+xmr-stak
+minerd
+cpuminer
+cgminer
+bfgminer
+ethminer
+nbminer
+t-rex
+phoenixminer
+gminer
+lolminer
+teamredminer
+nanominer
+srbminer
+wildrig
+ccminer
+
+# --- 伪装成系统进程的挖矿程序 ---
+# 注意：这些可能与正常系统进程同名，需结合 CPU 占用判断
+kworkerds
+kdevtmpfsi
+kinsing
+ksoftirqds
+kthreaddi
+biosets
+solrd
+dbused
+sysguard
+sysupdate
+networkservice
+systemd-worker
+
+# --- 矿池连接关键字（用于网络检测）---
+# 格式: POOL:关键字
+POOL:stratum
+POOL:mining
+POOL:nicehash
+POOL:nanopool
+POOL:f2pool
+POOL:antpool
+POOL:poolin
+POOL:viabtc
+POOL:ethermine
+POOL:flexpool
+POOL:2miners
+POOL:unmineable
+POOL:hashvault
+POOL:moneroocean
+POOL:supportxmr
+POOL:minergate
+POOL:xmrpool
+POOL:hashrate
+POOL:cryptonight
+
+# --- 矿池常用端口 ---
+# 格式: PORT:端口号
+PORT:3333
+PORT:4444
+PORT:5555
+PORT:7777
+PORT:8888
+PORT:9999
+PORT:14433
+PORT:14444
+PORT:45560
+PORT:45700
